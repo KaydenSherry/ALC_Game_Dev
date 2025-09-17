@@ -16,7 +16,10 @@ public class Balloon : MonoBehaviour
     public GameObject popEffect;
 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
+    }
 
     void OnMouseDown()
     {
@@ -26,6 +29,7 @@ public class Balloon : MonoBehaviour
 
         if (clickToPop == 0)
         {
+            scoreManager.IncreaseScoreText(scoreToGive);
             Destroy(gameObject);
         }
     }
