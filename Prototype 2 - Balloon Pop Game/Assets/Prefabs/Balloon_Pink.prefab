@@ -97,7 +97,8 @@ GameObject:
   - component: {fileID: 8049872619253611855}
   - component: {fileID: 2360627308113088994}
   - component: {fileID: 5469422617851084178}
-  - component: {fileID: -4435129269323484951}
+  - component: {fileID: 5823819596947666685}
+  - component: {fileID: 2047602817724288904}
   m_Layer: 0
   m_Name: Balloon_Pink
   m_TagString: Untagged
@@ -115,8 +116,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.06336594, y: 0, z: 8.4843025}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 488293107455754777}
   - {fileID: 729435805004896947}
@@ -173,7 +174,20 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!114 &-4435129269323484951
+--- !u!114 &5823819596947666685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3903065626297087041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8c615ac2a10f5d4a948c10d1e079197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
+--- !u!114 &2047602817724288904
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,9 +199,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dc10e0dcb7aa0d4986a155bd02ac509, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clickToPop: 3
+  clickToPop: 2
   scaleToIncrease: 0.15
-  scoreToGive: 0
+  scoreToGive: 1
   popEffect: {fileID: 0}
 --- !u!1 &8473949154737883238
 GameObject:
