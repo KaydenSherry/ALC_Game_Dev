@@ -15,7 +15,7 @@ public class Balloon : MonoBehaviour
 
     public GameObject popEffect;
 
-
+    public Vector3 effectOffset = new Vector3(0, 3, 0);
     void Start()
     {
         scoreManager = GameObject.Find("ScoreManager").GetComponent<ScoreManager>();
@@ -30,7 +30,7 @@ public class Balloon : MonoBehaviour
         if (clickToPop == 0)
         {
             scoreManager.IncreaseScoreText(scoreToGive);
-            Instantiate(popEffect, transform.position, transform.rotation);
+            Instantiate(popEffect, transform.position + effectOffset, transform.rotation);
             Destroy(gameObject);
         }
     }
