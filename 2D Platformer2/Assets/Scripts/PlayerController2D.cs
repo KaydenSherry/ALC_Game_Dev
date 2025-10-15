@@ -27,7 +27,7 @@ public class PlayerController2D : MonoBehaviour
 
     void FixedUpdate()
     {
-        float moveInput = moveInput.GetAxisRaw("Horizontal");
+        float moveInput = Input.GetAxisRaw("Horizontal");
         rig.linearVelocity = new Vector2(moveInput * moveSpeed, rig.linearVelocity.y);
     }
 
