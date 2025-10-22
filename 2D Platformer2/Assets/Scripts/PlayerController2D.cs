@@ -19,7 +19,7 @@ public class PlayerController2D : MonoBehaviour
     public TextMeshProUGUI scoreText;
 
     //Increase the score and Update the score text UI
-    public void AddScore(int amount)
+    public void AddScore (int amount)
     {
         score += amount;
         scoreText.text = "Score: " + score;
