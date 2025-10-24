@@ -1,16 +1,25 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndPortal : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public bool finalLevel;
+    public string nextLevelName;
+
+    private void OnTriggerEnter2D (Collider2D collision)
     {
-        
+        if(collision.CompareTag("Player"))
+        {
+            if (finalLevel == true)
+            {
+                SceneManager.LoadScene(0);
+            }
+
+            else
+            {
+                SceneManager.LoadScene(nextLevelName);
+            }
+        }
     }
 }
