@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 3d851b0555853f84b9b6c1c6a14e8048
+guid: 05e1ce10d88e03544806d2cfe3187feb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2189510010676529607
-    second: Portal_0
+      213: 2621451446809186042
+    second: Spike Animation_0
+  - first:
+      213: 2081597955363080336
+    second: Spike Animation_1
+  - first:
+      213: 3218902901659452934
+    second: Spike Animation_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,89 +106,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Portal_0
+      name: Spike Animation_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 16
         y: 32
         width: 16
-        height: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c9498211c3b26e10800000000000000
-      internalID: 2189510010676529607
+      spriteID: afecefaa334416420800000000000000
+      internalID: 2621451446809186042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Portal_1
+      name: Spike Animation_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0988896cf4253ec10800000000000000
+      internalID: 2081597955363080336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spike Animation_2
       rect:
         serializedVersion: 2
         x: 16
-        y: 32
+        y: 16
         width: 16
-        height: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 921665da8d8e0a14da1d82fa6b0ff326
-      internalID: -761015998
+      spriteID: 606c2e37227dbac20800000000000000
+      internalID: 3218902901659452934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Portal_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6d320eef3df7604ea62457684312e2a
-      internalID: -1238814610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Portal_3
+      name: Spike Animation_3
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
-        height: 32
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 547b300931c8a024cb2393d6996bf8d5
-      internalID: -123007289
+      spriteID: d85b8b4dbc394934c839b66529e8da67
+      internalID: -1560941460
       vertices: []
       indices: 
       edges: []
@@ -191,7 +197,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8a30bc98b4d7c884a93ee35d46d5afb2
+    spriteID: 6a24b2eb1e7cd654bb6414458832313d
     internalID: 0
     vertices: []
     indices: 
@@ -201,12 +207,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":3.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Portal_0: 2189510010676529607
-      Portal_1: -761015998
-      Portal_2: -1238814610
-      Portal_3: -123007289
+      Spike Animation_0: 2621451446809186042
+      Spike Animation_1: 2081597955363080336
+      Spike Animation_2: 3218902901659452934
+      Spike Animation_3: -1560941460
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
