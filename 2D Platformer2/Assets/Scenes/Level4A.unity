@@ -1102,7 +1102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2757130304451078922, guid: bf39a2d7c5f109344b57c7916af937b5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.5
+      value: -3.37
       objectReference: {fileID: 0}
     - target: {fileID: 2757130304451078922, guid: bf39a2d7c5f109344b57c7916af937b5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1135,6 +1135,10 @@ PrefabInstance:
     - target: {fileID: 2757130304451078922, guid: bf39a2d7c5f109344b57c7916af937b5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604137860836201504, guid: bf39a2d7c5f109344b57c7916af937b5, type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5852559252976470703, guid: bf39a2d7c5f109344b57c7916af937b5, type: 3}
       propertyPath: m_Name
@@ -1242,7 +1246,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.38416696, g: 0.82183534, b: 0.9150943, a: 0}
+  m_BackGroundColor: {r: 0.38431373, g: 0.8235294, b: 0.9137255, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1363,6 +1367,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 201748422524151524, guid: 0729baae673896440b0e6e8e5cec42d0, type: 3}
+      propertyPath: nextLevelName
+      value: Level5A
+      objectReference: {fileID: 0}
     - target: {fileID: 626048199295338084, guid: 0729baae673896440b0e6e8e5cec42d0, type: 3}
       propertyPath: m_Name
       value: EndPortal
